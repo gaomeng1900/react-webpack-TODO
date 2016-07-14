@@ -1,0 +1,50 @@
+/**
+ * 全局样式
+ * @author Meng
+ * @date 2016-07-14
+ */
+
+body {
+    background: #eee;
+    border: none;
+    padding: none;
+    margin: none;
+    width: 100%;
+}
+
+.cf:after {
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden;
+    clear:left;
+}
+
+#app {
+    padding: 0 10px;
+    header {
+        font-size: 30px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .control-bar {
+        margin: 10px 0 0 0;
+        padding-bottom: 10px;
+        border-bottom: solid 1px #aaa;
+        .finish-all {
+            float: left;
+        }
+        .filter {
+            float: right;
+        }
+    }
+    .todo-list {
+        ul {
+            padding: 10px 0;
+        }
+    }
+    footer {
+        background-color: #ccc;
+        padding: 10px;
+    }
+}

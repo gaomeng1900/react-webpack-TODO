@@ -1,0 +1,12 @@
+{
+    "presets": [
+        {
+            "plugins": [
+                "transform-object-rest-spread",
+                ["antd", { "style": "css" }]
+            ]
+        },
+        "react",
+        "es2015",
+    ]
+}
