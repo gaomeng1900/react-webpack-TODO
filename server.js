@@ -23,10 +23,10 @@ const compiler = webpack(config)
 
 // set dev_option
 var devOption = {
-    noInfo: true, // ?
+    noInfo: true, 
     publicPath: config.output.publicPath, // 静态文件位置
     stats: { colors: true }, // 进度输出
-    historyApiFallback: true, // ?
+    historyApiFallback: true, 
     headers: {
       'Access-Control-Allow-Origin': '*'
     }
